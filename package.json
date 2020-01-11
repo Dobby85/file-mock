@@ -1,0 +1,30 @@
+{
+  "name": "file-mock",
+  "version": "1.0.0",
+  "description": "A module which handle all your files creation and deletion for your tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dobby85/file-mock.git"
+  },
+  "keywords": [
+    "fs",
+    "mock",
+    "nodejs"
+  ],
+  "author": "devDobby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dobby85/file-mock/issues"
+  },
+  "homepage": "https://github.com/Dobby85/file-mock#readme",
+  "dependencies": {
+    "rimraf": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0"
+  }
+}
